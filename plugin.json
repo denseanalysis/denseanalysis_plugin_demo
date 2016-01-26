@@ -1,0 +1,10 @@
+{
+	"package": "demo",
+	"version": "1.0",
+	"description": "Series of plugins to demonstrate functionality",
+	"menu": "Demo Plugins",
+	"author": "Jonathan Suever",
+	"email": "suever@gmail.com",
+	"url": "https:\/\/github.com\/denseanalysis\/denseanalysis_plugin_demo",
+	"download": "https:\/\/github.com\/denseanalysis\/denseanalysis_plugin_demo\/archive\/master.zip"
+}
