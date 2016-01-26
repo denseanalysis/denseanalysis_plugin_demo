@@ -19,7 +19,7 @@ This method sets different properties of the plugin and performs any setup opera
 What you put in your constructor is up to you, but it must [call the superclass constructor](https://www.mathworks.com/help/matlab/matlab_oop/calling-superclass-methods-on-subclass-objects.html) and provide some basic information about the plugin. 
 
     function self = AwesomePlugin(varargin)
-        self@DENSEanalysisPlugin('Name', 'Awesome Plugin')
+        self@plugins.DENSEanalysisPlugin('Name', 'Awesome Plugin')
         % Do any other initialization here
     end
     
