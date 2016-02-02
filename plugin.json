@@ -1,6 +1,6 @@
 {
 	"package": "demo",
-	"version": "1.0",
+	"version": "1.0.0",
 	"description": "Series of plugins to demonstrate functionality",
 	"menu": "Demo Plugins",
 	"author": "Jonathan Suever",
