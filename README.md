@@ -45,7 +45,7 @@ to perform the desired actions on this object. Because `DENSEdata` is derived
 from MATLAB's [`handle`
 class](http://www.mathworks.com/help/matlab/ref/handle-class.html), any changes
 that you make to the object will automatically propagate back to the
-appilcation when your plugin completes.
+application when your plugin completes.
 
 The run method **must** be defined with the following format
 
