@@ -8,13 +8,6 @@ classdef ExamplePlugin < plugins.DENSEanalysisPlugin
     % Copyright (c) 2016 DENSEanalysis Contributors
 
     methods
-        function self = ExamplePlugin(varargin)
-            self@plugins.DENSEanalysisPlugin(...
-                'Name', 'Example Plugin', ...
-                'Description', 'This is just a demo plugin', ...
-                'Version', '1.0');
-        end
-
         function validate(~, data)
             % Performs validation to ensure that the state of the program
             % is correct to be able to run the plugin.
