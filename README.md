@@ -6,6 +6,13 @@ implementation](https://www.mathworks.com/help/matlab/object-oriented-programmin
 it only requires a cursory understanding and hopefully this example will aid
 developers.
 
+## Installation
+After installation of *DENSEanalysis*, run the following from the MATLAB command line:
+
+```matlab
+plugins.PluginManager.import('https://github.com/denseanalysis/denseanalysis_plugin_demo')
+```
+
 ## Plugin Components ##
 There are several files that make up a *DENSEanalysis* plugin.
 
